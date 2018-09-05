@@ -2,14 +2,14 @@
 namespace Patterns_08
 {
     /// <summary>
-    /// Делегат для передачи параметров в модель
+    /// Делегат для оповещения об изменение модели
     /// </summary>
     /// <typeparam name="IModel">шаблон модели</typeparam>
     /// <param name="sender">отправитель</param>
     /// <param name="e">значение</param>
     public delegate void ModelHandler<IModel>(IModel sender, ModelEventArgs e);
     /// <summary>
-    /// Делегат для передачи параметров в представление
+    /// Делегат для оповещения об изменение представления
     /// </summary>
     /// <typeparam name="IView">шаблон представления</typeparam>
     /// <param name="sender">отправитель</param>

@@ -6,7 +6,7 @@
     public interface IModelObserver
     {
         /// <summary>
-        /// Изменение значения можели
+        /// Изменение значения модели
         /// </summary>
         /// <param name="model">модель</param>
         /// <param name="e">параметр аргументов модели</param>
