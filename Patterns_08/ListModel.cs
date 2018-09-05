@@ -8,7 +8,7 @@ namespace Patterns_08
     public class ListModel : IModel
     {
         /// <summary>
-        /// Событие изменения модели
+        /// Событие, формируемое при изменение модели
         /// </summary>
         public event ModelHandler<ListModel> Changed;
 

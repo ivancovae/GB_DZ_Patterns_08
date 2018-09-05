@@ -39,7 +39,8 @@ namespace Patterns_08
         }
         private void Button_Click(object sender, EventArgs e)
         {
-            controller.AddValue(TextBox.Text);
+            Changed.Invoke(this, new ViewEventArgs(TextBox.Text));
+            //controller.AddValue(TextBox.Text);
         }
     }
 }
